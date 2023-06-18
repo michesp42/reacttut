@@ -1,5 +1,7 @@
 function ListGroup() {
   return (
+    <>
+    <h1 className="text-xl">List</h1>
     <ul className="w-96">
       <li className="w-full border-b-2 border-neutral-100 border-opacity-100 py-4">
         An item
@@ -17,6 +19,7 @@ function ListGroup() {
         And a fifth one
       </li>
     </ul>
+    </>
   );
 }
 
